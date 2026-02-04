@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Virtual Environment
 .venv/
 venv/
@@ -19,3 +20,14 @@ uploads/
 .vscode/
 .idea/
 .gemini/
+=======
+# Dependencies
+.psci_modules
+.spago
+bower_components
+node_modules
+
+# Generated files
+.psci
+output
+>>>>>>> c206c5c010d79c699d7abb8f5ec8537ed970c596
