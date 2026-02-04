@@ -1,0 +1,21 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+logs/*.log
+*.log
+
+# Uploads
+uploads/
+
+# IDE settings
+.vscode/
+.idea/
+.gemini/

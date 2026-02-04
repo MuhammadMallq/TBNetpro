@@ -1,0 +1,120 @@
+=== PAGE 1 ===
+Chat Multi-Client Berbasis TCP menggunakan Python Sistem 
+Komunikasi Real-Time Multi-User di Jaringan Lokal Berbasis 
+Python. 
+ 
+Nama​ ​
+​
+: Muhammad Malik Nur 
+NIM​
+​
+​
+: 714240062 
+Mata Kuliah​
+​
+: Network Programming 
+Dosen Pengampu​
+: MUHAMMAD YUSRIL HELMI SETYAWAN, S.Kom., M.Kom. 
+Semester/Tahun​
+: 2025/2026 Ganjil 
+ 
+1.​
+DESKRIPSI APLIKASI  
+1.1.​
+Gambaran Umum 
+Aplikasi Chat Multi-Client Berbasis TCP adalah aplikasi jaringan komputer berbasis 
+Python yang memungkinkan komunikasi real-time antar pengguna di jaringan lokal. 
+Aplikasi ini menggunakan arsitektur client-server, di mana server bertugas menerima 
+koneksi dari banyak client sekaligus, dan setiap client dapat mengirim maupun 
+menerima pesan secara bersamaan. Aplikasi ini relevan untuk: 
+●​ Kantor, sekolah, laboratorium komputer 
+●​ Lingkungan LAN kecil 
+●​ Demonstrasi konsep client-server dan multithreading dalam jaringan 
+1.2.​
+Fungsional Utama 
+●​ Client dapat terhubung ke server melalui jaringan LAN 
+●​ Server menerima banyak koneksi client secara bersamaan 
+●​ Pengiriman pesan real-time antar client 
+●​ Notifikasi join/leave user 
+●​ Logging pesan dan aktivitas client 
+1.3.​
+Fitur Aplikasi 
+1.3.1.​
+Multi-Client Real-Time Chat 
+●​ Setiap client dapat mengirim dan menerima pesan secara bersamaan 
+●​ Server menggunakan multithreading untuk menangani tiap client 
+1.3.2.​
+Identifikasi User 
+●​ Setiap client memasukkan username saat pertama kali konek 
+●​ Server menampilkan join/leave message 
+
+
+=== PAGE 2 ===
+1.3.3.​
+Logging Pesan 
+●​ Semua pesan dicatat ke file chat.log 
+●​ Digunakan untuk arsip dan monitoring aktivitas jaringan 
+1.4.​
+Teknologi yang Digunakan 
+●​ Bahasa Pemrograman: Python 
+●​ Library: socket, threading, os, datetime 
+●​ Platform: Desktop / Terminal 
+●​ Arsitektur: Client-Server, Standalone 
+2.​
+WORKFLOW APLIKASI 
+2.1.​
+Diagram Alur Kerja  
+ 
+2.2.​
+Penjelasan Workflow 
+2.2.1.​
+Inisialisasi Server Server dijalankan dan mulai menunggu koneksi client. 
+Server memuat konfigurasi IP, port, dan lokasi file log. 
+2.2.2.​
+Koneksi Client Client dijalankan, memasukkan username, dan mencoba 
+tersambung ke server. 
+
+
+=== PAGE 3 ===
+2.2.3.​
+Join Notification Server menerima koneksi client dan menyiarkan pesan 
+“join” ke semua client lain. 
+2.2.4.​
+Chat Real-Time Setiap client dapat mengirim pesan ke server, dan server 
+meneruskan pesan tersebut ke semua client lain. 
+2.2.5.​
+Logging Server mencatat semua pesan dan aktivitas join/leave client ke file 
+log. 
+2.2.6.​
+Disconnect & Leave Notification Client dapat keluar, server mendeteksi 
+disconnect, dan menyiarkan pesan leave ke semua client. 
+2.2.7.​
+Loop Monitoring Server tetap berjalan menunggu client lain, sehingga proses 
+chatting berlangsung terus-menerus. 
+3.​
+PENUTUP 
+3.1.​
+Kesimpulan 
+Aplikasi Chat Multi-Client Berbasis TCP ini efektif untuk komunikasi real-time di 
+lingkungan LAN. Aplikasi mengimplementasikan konsep penting client-server, 
+multithreading, dan logging dalam network programming. Administrator atau 
+pengguna jaringan dapat melakukan komunikasi dengan banyak user secara simultan. 
+3.2.​
+Pengembangan Lanjutan 
+Pengembangan selanjutnya yang dapat dilakukan antara lain : 
+●​ Menambahkan antarmuka GUI menggunakan Tkinter 
+●​ Menambahkan fitur private chat antar user 
+●​ Integrasi enkripsi pesan untuk keamanan 
+●​ Integrasi notifikasi email atau Telegram saat client baru join 
+3.3.​
+Penerapan di Dunia Nyata Aplikasi ini dapat diterapkan di: 
+Aplikasi PyRTC dapat diterapkan pada : 
+●​ Kantor / perusahaan 
+●​ Sekolah / laboratorium komputer 
+●​ Laboratorium praktikum jaringan komputer 
+●​ Lingkungan belajar online LAN 
+Catatan: Dokumen ini disusun untuk memenuhi tugas besar mata kuliah Network Programming. 
+Implementasi aktual dapat disesuaikan dengan kebutuhan dan batasan sistem yang digunakan. 
+ 
+
+
